@@ -13,28 +13,28 @@
   <body>
     <article class="animate__animated animate__backInDown">
       <picture>
-        <source media="(max-width: 616px)" srcset="images/img-mobile.png" />
+        <source media="(min-width: 616px)" srcset="images/img-desktop.png" />
         <img
-          src="images/img-desktop.png"
+          src="images/img-mobile.png"
           alt="Photo of a bottle of Y Eau de Toilette<"
         />
       </picture>
-      <div class="card-main-container">
-        <span class="category">COLOGNE</span>
-        <h1>Yves Saint Laurent Y Eau de Toilette</h1>
-        <p>
+      <div class="card-main-content">
+        <span class="card-category">COLOGNE</span>
+        <h1 class="card-heading">Yves Saint Laurent Y Eau de Toilette</h1>
+        <p class="card-description">
           Y Eau de Toilette is a fresh and clean men's cologne featuring
           aromatic and fresh scents of sage and lavender at the heart with a
           crisp bite of geranium.
-        </p>
-        <div class="price-container">
+        </pc>
+        <div class="card-price-container">
           <p>$149.99</p>
-          <span>$169.99</span>
+          <del><span class="sr-only"></span>$169.99</del>
         </div>
-        <div class="card-btn">
-          <img src="images/icon-cart.svg" alt="Card Icon" />
-          <button>Add to Cart</button>
-        </div>
+        <button>
+          <img src="images/icon-cart.svg" alt="" aria-hidden="true" /> Add to
+          Cart
+        </button>
       </div>
     </article>
   </body>
